@@ -23,22 +23,22 @@
 執行Fasttext_model.ipynb
 ### Step4:
 執行Hard_skill_detail_reports.ipynb
-將已tag完成的jobs(如hardskill_detail_job_{}.dat)和resumes(如hardskill_detail_idnos_message_{}.dat)透過訓練好的關聯模型計算各class的相似程度, 並紀錄resumes對jobs來說, 哪些是已具備的要求條件(精準組＆相似組)以及不具備的要求條件(不符合組)
+將已完成tag的jobs(如hardskill_detail_job_{}.dat)和resumes(如hardskill_detail_idnos_message_{}.dat)透過訓練好的關聯模型計算各類別的相似程度, 並提供從resumes對jobs的角度來說, 哪些是已符合的要求條件(精準組＆相似組)以及哪些是不符合的要求條件(不符合組)等相關資訊.
 
-四大類別
-skill class (技能類別)
-get_skill_detail_report(...)
-language_detail(...)
-skill_detail(...)
-Experience class(經驗類別)
-get_experience_detail_report(...)
-work_exp_detail(...)
-Education class (學歷類)
-get_education_detail_report(...)
-major_detail(...)
-Expectation class (期望類)
-get_expectation_detail_report(...)
-expect_job_detail(...)
+#### 四大類別
+##### skill class (技能類別)
+###### get_skill_detail_report(...)
+###### language_detail(...)
+###### skill_detail(...)
+##### Experience class(工作經歷類別)
+###### get_experience_detail_report(...)
+###### work_exp_detail(...)
+##### Education class (學歷類別)
+###### get_education_detail_report(...)
+###### major_detail(...)
+##### Expectation class (期望類)
+###### get_expectation_detail_report(...)
+######expect_job_detail(...)
 
 
 
