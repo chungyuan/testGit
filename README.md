@@ -18,7 +18,7 @@
 ### Step2: 產生各field的關聯corpus
 執行Behavior_embedding.ipynb
 目的：透過基於B對C的行為(邀約)建立職缺對履歷各field的內容關聯(graph), 產生random walk結果後利用fastText學習此關聯(embedding), 如圖1所示. 
-![graph embedding](https://github.com/chungyuan/testGit/blob/master/%E6%88%AA%E5%9C%96%202020-03-31%20%E4%B8%8B%E5%8D%881.55.41.png)
+![graph embedding](https://github.com/chungyuan/testGit/blob/master/graph_embedding.png)
 ### Step3: 建立關聯模型
 執行Fasttext_model.ipynb
 ### Step4:
