@@ -1,11 +1,15 @@
 # Hard skill detail reports
-根據所建立的B邀約C關聯模型, 計算job和resume的內容相似程度, 並產生各項細節報表.
-## 各程式碼及其描述分別如下：
-### Behavior_embedding.ipynb: 主要將B邀約C的資料進行前處理並轉換為fastText的輸入格式
-### Fasttext_model.ipynb: 將各field corpus透過Fasttext訓練
-### Hard_skill_detail_reports.ipynb:計算職缺和履歷各field的相似程度, 並產生相關細節資訊. 
-### Category_parameters_setting_local.ipynb: 建立結構化編號和中文對應表
-### Function_utility_research.ipynb:
+根據所建立的B邀約C關聯模型, 計算jobs和resumes的內容相似程度, 並產生各項細節報表.
+## The brief description of main code files：
+### Behavior_embedding.ipynb
+主要將B邀約C的資料進行前處理並轉換為fastText的輸入格式
+### Fasttext_model.ipynb
+將各field corpus透過Fasttext訓練
+### Hard_skill_detail_reports.ipynb
+計算職缺和履歷各field的相似程度, 並產生相關細節資訊. 
+### Category_parameters_setting_local.ipynb
+建立結構化編號和中文對應表
+### Function_utility_research.ipynb
 一些共用的function
 ## Getting started
 Step1:
