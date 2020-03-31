@@ -12,16 +12,16 @@
 ### Function_utility_research.ipynb
 一些共用的function
 ## Getting started
-Step1:
+### Step1: 拉取log資料
 利用data/B_invite_C_dataportal.txt語法, 抓取在某一段時間區間內B對C有任合行為(包含邀約儲存、轉寄)的資料.
-時間區間:本次實驗為兩個月的行為資料量, 如20190401~20190531
-Step2:
+時間區間:本次實驗為兩個月的行為資料量, 如20190401~20190531.
+### Step2: 產生各field的關聯corpus
 執行Behavior_embedding.ipynb
 目的：透過基於B對C的行為(邀約)建立職缺對履歷各field的內容關聯(graph), 產生random walk結果後利用fastText學習此關聯(embedding), 如圖1所示. 
-Step3:
-### 
+![graph embedding] (https://github.com/chungyuan/testGit/blob/master/%E6%88%AA%E5%9C%96%202020-03-31%20%E4%B8%8B%E5%8D%881.55.41.png)
+### Step3: 建立關聯模型
 執行Fasttext_model.ipynb
-Step4:
+### Step4:
 執行Hard_skill_detail_reports.ipynb
 將已tag完成的jobs(如hardskill_detail_job_{}.dat)和resumes(如hardskill_detail_idnos_message_{}.dat)透過訓練好的關聯模型計算各class的相似程度, 並紀錄resumes對jobs來說, 哪些是已具備的要求條件(精準組＆相似組)以及不具備的要求條件(不符合組)
 
